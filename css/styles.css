@@ -1,0 +1,17 @@
+h1,
+h2 {
+    color: rgb(218, 22, 47);
+    font-family: cursive;
+    background-color: aqua;
+
+}
+
+
+body {
+    background-color: beige;
+}
+
+
+main {
+    background-color: darkorchid;
+}
