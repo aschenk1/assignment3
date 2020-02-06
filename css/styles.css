@@ -1,17 +1,28 @@
 h1,
 h2 {
     color: rgb(218, 22, 47);
-    font-family: cursive;
-    background-color: aqua;
+    font-family: 'times new roman';
+    background-color: #052741;
+    font-size: 2em;
+
 
 }
 
 
 body {
-    background-color: beige;
+    background-color: #63b4f3;
 }
 
 
 main {
-    background-color: darkorchid;
+    background-color: #e1f1fd;
 }
+
+
+
+.somename {
+
+    color: white;
+}
+
+.someothername {color:#052741;}
