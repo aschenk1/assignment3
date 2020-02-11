@@ -1,10 +1,7 @@
 h1,
 h2 {
-    color: rgb(218, 22, 47);
-    font-family: 'times new roman';
     background-color: #052741;
     font-size: 2em;
-
 
 }
 
@@ -26,3 +23,9 @@ main {
 }
 
 .someothername {color:#052741;}
+
+h1,h2 {
+    font-family:futura;
+}
+
+ul {font-family:futura;}
