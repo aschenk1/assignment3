@@ -1,3 +1,19 @@
+#fronttitle {
+
+    color: #e1f1fd;
+
+    font-size: 4.0em;
+
+    border: 10px solid #e1f1fd;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 15px;
+    border-radius: 15px;
+
+
+}
+
+
 h1,
 h2 {
     background-color: #052741;
@@ -22,10 +38,17 @@ main {
     color: white;
 }
 
-.someothername {color:#052741;}
-
-h1,h2 {
-    font-family:futura;
+.someothername {
+    color: #052741;
 }
 
-ul {font-family:futura;}
+h1,
+h2 {
+    font-family: futura;
+}
+
+ul {
+    font-family: futura;
+}
+
+
