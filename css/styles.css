@@ -1,3 +1,14 @@
+html {
+    color:white;
+    box-sizing: border-box;
+    margin: 0;
+    
+    
+}
+
+
+
+
 #fronttitle {
 
     color: #e1f1fd;
@@ -10,7 +21,9 @@
     padding-left: 15px;
     border-radius: 15px;
 
-
+padding: 15px 15px 15px 15px;
+    
+    
 }
 
 
@@ -36,6 +49,11 @@ main {
 .somename {
 
     color: white;
+    
+    width: 400px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .someothername {
