@@ -1,9 +1,9 @@
 html {
-    color:white;
+    color: white;
     box-sizing: border-box;
     margin: 0;
-    
-    
+
+
 }
 
 
@@ -21,9 +21,9 @@ html {
     padding-left: 15px;
     border-radius: 15px;
 
-padding: 15px 15px 15px 15px;
-    
-    
+    padding: 15px 15px 15px 15px;
+
+
 }
 
 
@@ -36,9 +36,9 @@ h2 {
 
 
 body {
-/*    background-image: url("../images/test2.png");*/
-    
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/test2.png");
+    /*    background-image: url("../images/test2.png");*/
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/test2.png");
     background-size: cover;
     background-position: center;
     min-height: 100vh;
@@ -54,7 +54,7 @@ main {
 .somename {
 
     color: white;
-    
+
     width: 400px;
     height: 150px;
     margin-left: auto;
@@ -75,3 +75,13 @@ ul {
 }
 
 
+main ul li {
+    color: cornflowerblue;
+
+}
+
+img:hover {
+    opacity: 1;
+    transform: scale(1.03);
+
+}
