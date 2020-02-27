@@ -8,14 +8,21 @@ html {
 
 
 
+nav {
+    
+    font-family: futura;
+}
 
-#fronttitle {
+
+.fronttitle {
 
     color: #e1f1fd;
 
     font-size: 4.0em;
 
     border: 10px solid #e1f1fd;
+    margin-left:auto;
+    margin-right:auto;
     padding-bottom: 15px;
     padding-top: 15px;
     padding-left: 15px;
@@ -27,18 +34,24 @@ html {
 }
 
 
-h1,
-h2 {
+
+h1 {
     background-color: #052741;
     font-size: 2em;
 
+}
+
+#subtitle{
+    color:#052741;
+    font-size: 3em;
+    padding: 0px 0px 0px 35px; 
 }
 
 
 body {
     /*    background-image: url("../images/test2.png");*/
 
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/test2.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../images/bg.jpg");
     background-size: cover;
     background-position: center;
     min-height: 100vh;
@@ -47,22 +60,22 @@ body {
 
 main {
     background-color: #e1f1fd;
+    padding: 5px 5px 5px 5px
 }
 
 
-
-.somename {
-
+.portfoliotitles {
+    
     color: white;
-
-    width: 400px;
-    height: 150px;
+    font-size: 3em;
     margin-left: auto;
     margin-right: auto;
 }
 
+
 .someothername {
     color: #052741;
+    font-family: futura;
 }
 
 h1,
