@@ -1,3 +1,11 @@
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    
+}
+
+
 html {
     color: white;
     box-sizing: border-box;
@@ -7,7 +15,6 @@ html {
 }
 
 
-
 nav {
     
     font-family: futura;
@@ -15,6 +22,7 @@ nav {
 
 
 .fronttitle {
+    text-align: center;
 
     color: #e1f1fd;
 
@@ -65,8 +73,8 @@ main {
 
 
 .portfoliotitles {
-    
-    color: white;
+    text-align: center;
+    color:  #052741;
     font-size: 3em;
     margin-left: auto;
     margin-right: auto;
@@ -94,7 +102,16 @@ main ul li {
 }
 
 img:hover {
-    opacity: 1;
+    opacity: .8;
     transform: scale(1.03);
 
+}
+
+nav{
+    text-align: left;
+
+}
+
+a:hover {
+    color: white;
 }
