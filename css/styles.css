@@ -14,6 +14,14 @@ html {
 
 }
 
+form {
+    
+    padding-left: 15px;
+    
+    font-family: futura;
+    
+}
+
 
 nav {
     
@@ -53,6 +61,13 @@ h1 {
     color:#052741;
     font-size: 3em;
     padding: 0px 0px 0px 35px; 
+}
+
+#subtitle2{
+    color:#052741;
+    font-size: 2em;
+    padding: 0px 0px 0px 175px; 
+    
 }
 
 
@@ -114,4 +129,36 @@ nav{
 
 a:hover {
     color: white;
+}
+
+form p{
+    display: flex;
+    flex: 1;
+    align-content:center;
+    flex-direction: column;
+    margin: 15px;
+ padding: 0px 100px 0px 100px
+  
+}
+
+form label{
+    flex-basis: 60%;
+    align-content: center;
+    
+}
+
+form input, textarea, select {
+    flex:1;
+    align-content: center;
+    margin: 0 1em;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 50rem) {
+    header, 
+    main, 
+    footer,
+    form p{
+        flex-direction: column;
+    }
 }
